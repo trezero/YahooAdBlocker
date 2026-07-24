@@ -1,0 +1,14 @@
+div[data-test-id="right-rail-ad"],
+div[data-test-id="mail-right-rail"],
+div[data-test-id="adblock-delay-dismiss-cue"],
+div[data-test-id="right-rail-hidead-btn"],
+#right-rail-ad {
+  display: none !important;
+}
+
+div[data-test-id="mail-reading-pane"],
+div[data-test-id="message-list"] {
+  width: 100% !important;
+  max-width: none !important;
+  flex: 1 1 auto !important;
+}

@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Yahoo Mail Right Ad Remover",
+  "version": "1.0.0",
+  "description": "Removes Yahoo Mail right-side ad panels and expands the inbox view.",
+  "host_permissions": [
+    "*://mail.yahoo.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://mail.yahoo.com/*"
+      ],
+      "css": [
+        "styles.css"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}
